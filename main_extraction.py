@@ -2,8 +2,8 @@ import asyncio
 import weave
 from weave.flow.scorer import MultiTaskBinaryClassificationF1
 from dotenv import load_dotenv
-from extract_fruits_model import ExtractFruitsModel
-from extract_fruits_scoring import fruit_name_score
+from extraction.extract_fruits_model import ExtractFruitsModel
+from extraction.extract_fruits_scoring import fruit_name_score
 
 
 # Load environment variables from .env file
